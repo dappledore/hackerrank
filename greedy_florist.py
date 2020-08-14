@@ -1,11 +1,4 @@
-import math
-import os
-import random
-import re
-import sys
-
-# Complete the getMinimumCost function below.
-
+# https://www.hackerrank.com/challenges/greedy-florist/problem
 
 def getMinimumCost(k, c):
     c = sorted(c, reverse=True)
